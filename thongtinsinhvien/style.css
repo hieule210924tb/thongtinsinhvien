@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+table{
+   font-size: 20px;
+}
+th{
+    background-color: #1eef07;
+    border: 1px solid #ccc;
+}
+td{
+    background-color: rgb(51, 51, 171);
+    border: 1px solid #ccc;
+}
+tr:hover{
+    cursor: pointer;
+    color: #dbbb19;
+    background-color: #bcf5ab;
+}
+.odd{
+    background-color: lightblue;
+}
+.even{
+    background-color: lightgreen;
+}
+.update{
+    text-decoration: none;
+    color: #fff;
+}
+.delete{
+    text-decoration: none;
+    color: #e60c0c;
+   
+}

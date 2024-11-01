@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+table{
+    border-collapse: collapse;
+    font-size: 25px;
+}
+td{
+    text-align: center;
+    border: 1px solid #d25512;
+}
+tr:hover{
+    cursor: pointer;
+    color: #cf141a;
+    background-color: #bcf5ab;
+}
+th{
+    text-align: center;
+    border: 1px solid #4434d8;
+    background-color: #468cac;
+}
+.odd{
+    background-color: lightblue;
+}
+.even{
+    background-color: lightgreen;
+}
