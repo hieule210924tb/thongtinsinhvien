@@ -15,6 +15,7 @@
             <th>Destination</th>
             <th>Duration</th>
             <th>Xóa</th> 
+            <th>Cập nhật</th> 
         </tr>
         <?php 
             require './connect.php';
@@ -35,9 +36,9 @@
                     "<td>" .$row['origin']. "</td>" .
                     "<td>" .$row['destination']. "</td>" .
                     "<td>" .$row['duration']. "</td>" .
-                    "<td>". '<a href="http://localhost/php/delete_flights.php?id=' .$row['id'].'">Xóa</a>' ."</td>"; 
-
-                  "</tr>";
+                    "<td>". '<a href="http://localhost/php/flights/delete_flights.php?id=' .$row['id'].'">Xóa</a>' ."</td>".
+                    "<td>". '<a href="http://localhost/php/flights/form_update.php?id=' .$row['id'].'">Sửa</a>' ."</td>";
+                      "</tr>";
                 }
             } else {
                 echo "No flight in database";

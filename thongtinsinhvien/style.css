@@ -9,6 +9,9 @@ body{
     justify-content: center;
     flex-direction: column;
 }
+h2{
+    border: 1px solid #ccc;
+}
 table{
    font-size: 20px;
 }
@@ -22,7 +25,7 @@ td{
 }
 tr:hover{
     cursor: pointer;
-    color: #dbbb19;
+    color: #e9c617;
     background-color: #bcf5ab;
 }
 .odd{
@@ -37,6 +40,5 @@ tr:hover{
 }
 .delete{
     text-decoration: none;
-    color: #e60c0c;
-   
+    color: black;
 }
